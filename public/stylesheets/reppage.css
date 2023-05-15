@@ -1,0 +1,591 @@
+/* Software banner styling */
+.software-hero-banner {
+    background-color: #ffff;
+    background-size: cover;    
+    display: grid;    
+    grid-template-columns: 60% 40%;
+    height: 100%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    justify-items: center;
+}
+
+.software-positioning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.software-hero-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: -0.08em;
+}
+
+.software-hero-description {
+    max-width: 80%;
+    font-size: 1em;
+}
+
+.banner-buttons {
+    display: flex;
+    gap: 1em;
+}
+
+.try-now-btn {
+    border: 2px solid #27326D;
+    color: #ffff;
+    background-color: #27326D;
+    padding: 0.5em 16px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0.5em;
+}
+  
+.try-now-btn:hover {
+    background-color: transparent;
+    color: #27326D;
+}
+
+.view-demo-btn {
+    border: 2px solid #27326D;
+    color: #27326D;
+    background-color: transparent;
+    padding: 0.5em 16px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0.5em;
+}
+  
+.view-demo-btn:hover {
+    background-color: #27326D;
+    color: white;
+}
+
+/* software Banner styling: Media query for tablet screens */
+@media (max-width: 992px) {
+    .software-hero-banner {
+        box-sizing: border-box;
+        grid-template-columns: 70% 30%;
+        height: 100%;
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+    .software-positioning {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }    
+    .software-hero-title {
+        padding-top: 0em;
+        letter-spacing: -0.08em;
+    }
+    .Tele-consult-image {
+        width: 100%;
+    }    
+}
+
+/* Software Banner styling: Media query for mobile screens */
+@media(max-width: 576px) {
+    .software-hero-banner {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding-top: 5em;
+        padding-bottom: 5em;
+        gap: 3em;
+    }
+    .software-positioning {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0em 0em;
+    }
+    .software-hero-title {
+        font-size: 1.5em;
+        padding-top: 0em;
+        letter-spacing: -0.08em;
+    }
+    
+    .software-hero-description {
+        margin-bottom: 1em;
+        font-size: 1.2em;
+        max-width: 100%;
+    }
+    .Tele-consult-image {
+        width: 70%;
+        padding-bottom: 2em;
+    }    
+}
+
+/* Key Benefit Page styling */
+.key-benefit-hero-banner {
+    background-image: url("../images/softwares-images/key-benefit-background.jpg");
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    color: #ffff;
+    height: 100%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.key-benefit-items {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.key-benefit-hero-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: -0.08em;
+    padding-top: 0em;
+}
+
+.key-benefit-hero-description {
+    max-width: 80%;
+    font-size: 1.2em;
+}
+
+.blue-tick {
+    font-size: 1.2em;
+    color: #0066FF;
+}
+
+/* Key Benefit Page styling: Media query for tablet screens */
+@media (max-width: 992px) {
+    .key-benefit-hero-banner {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        box-sizing: border-box;
+        height: 100%;
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+    .key-benefit-items {
+        align-items: center;
+        display: flex;
+        justify-content: start;
+        max-width: 90%;
+    }
+    .key-benefit-hero-title {
+        font-size: 1.5em;
+        letter-spacing: -0.08em;
+    }
+    .key-benefit-hero-description {
+        max-width: 100%;
+        font-size: 1em;
+    }    
+}
+
+/* Key Benefit Page styling: Media query for mobile screens */
+@media(max-width: 576px) {
+    .key-benefit-hero-banner {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding-top: 5em;
+        padding-bottom: 5em;
+        gap: 3em;
+    }
+    .key-benefit-items {
+        align-items: start;
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }    
+
+    .key-benefit-hero-title {
+        font-size: 1.5em;
+        letter-spacing: -0.08em;
+    }
+    .key-benefit-hero-description {
+        max-width: 100%;
+        font-size: 1.2em;
+    }
+}
+
+/* Review banner styling */
+.review-banner {
+    background-color: #ffff;
+    background-size: cover;    
+    display: grid;    
+    grid-template-columns: 40% 60%;
+    height: 100%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    justify-items: center;
+}
+
+.review-positioning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+}
+
+.review-hero-title {
+    font-size: 2.5em;
+    font-weight: 900;
+    letter-spacing: -0.08em;
+    padding: 0;
+}
+
+.review-hero-description {
+    max-width: 80%;
+    font-size: 1em;
+}
+
+.review-button {
+    border: 2px solid #27326D;
+    color: #ffff;
+    background-color: #27326D;
+    padding: 0.5em 16px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0.5em;
+}
+  
+.review-button:hover {
+    background-color: transparent;
+    color: #27326D;
+}
+
+/* Review Banner styling: Media query for tablet screens */
+@media (max-width: 992px) {
+    .quotation {
+        padding-top: 8em;
+    }
+    .review-banner {
+        grid-template-columns: 30% 70%;
+        height: 100%;
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+    .review-positioning {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }    
+    .review-hero-title {
+        font-size: 2.0em;
+        padding: none;
+        letter-spacing: -0.1em;
+    }
+    .teleconsult-dashboard-image {
+        width: 70%;
+        padding-top: 0em;
+    }
+}
+
+/* Review Banner styling: Media query for mobile screens */
+@media(max-width: 576px) {    
+    .quotation {
+        padding-top: 0em;
+    }    
+    .review-banner {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+
+    .review-hero-title {
+        font-size: 1.5em;
+        padding: 0;
+        letter-spacing: -0.1em;
+    }
+    
+    .review-hero-description {
+        margin-bottom: 1em;
+        max-width: 100%;
+    }
+    .review-button {
+        width: 100%;
+    }
+}
+
+/* Review banner styling */
+.feature-page {
+    background-color: #ffff;
+    height: 100%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 4em;
+}
+
+.feature-grid > div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.feature-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: -0.08em;
+    padding-bottom: 1em;
+}
+
+.feature-description {
+    max-width: 70%;
+    font-size: 1em; 
+}
+
+/* Review Banner styling: Media query for tablet screens */
+@media (max-width: 992px) {
+    .feature-page{
+        height: 100%;
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+    .feature-grid {
+        gap: 2em;
+    }    
+    .feature-description {
+        font-size: 1em;
+    }
+}
+
+/* Review Banner styling: Media query for mobile screens */
+@media(max-width: 576px) {
+    .feature-page {
+        height: 100%;
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+    .feature-description-title {
+        padding-top: 2em;
+    }
+    .feature-grid {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 2em;
+    }
+    
+    .feature-grid > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature-description {
+        padding-top: 1em;
+        font-size: 1em;
+    }
+    .feature-titles-container {
+        text-align: center;
+    }
+}
+
+/* Demo Page styling */
+.demo-page {
+    background-color: #ffff;
+    height: 100%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-image: url("../images/softwares-images/key-benefit-background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.demo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10em;
+}
+
+.demo-grid > div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.demo-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: -0.08em;
+    padding-bottom: 1em;
+    color: #ffff;
+}
+
+/* Demo Page styling: Media query for tablet screens */
+@media (max-width: 992px) {
+    .demo-page{
+        height: 100%;
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+    .demo-grid {
+        gap: 2em;
+    }
+}
+
+/* Demo Page styling: Media query for mobile screens */
+@media(max-width: 576px) {
+    .demo-page {
+        height: 100%;
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+    .demo-title {
+        font-size: 1.5em;
+        padding-bottom: 0em;
+    }    
+    .demo-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+}
+
+/* Contact Page styling */
+.contact-page {
+    background-color: #ffff;
+    background-size: cover;    
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 100%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.contact-page-positioning {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.contact-page-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: -0.08em;
+}
+
+.contact-page-description {
+    max-width: 80%;
+    font-size: 1em;
+}
+
+.form-flex {
+    display: flex;
+    gap: 1em;
+}
+
+.form-field {
+    margin-bottom: 1em;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.form-field input,
+.form-field textarea {
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1em;
+    border-radius: 0.3em;
+    border-width: 0.1em;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.form-actions button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    background-color: #27326D;
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+    width: 48%;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid #27326D;
+}
+
+.form-actions button:hover {
+    background-color: transparent;
+    color: #27326D;
+}
+
+/* Contact Page styling: Media query for tablet screens */
+@media (max-width: 992px) {
+    .contact-page {
+        grid-template-columns: 70% 30%;
+        height: 100%;
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+    .contact-page-positioning {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }    
+    .contact-page-title {
+        padding-top: 0em;
+        letter-spacing: -0.08em;
+    }
+    .form-container {
+        max-width: 25em;
+    }   
+    .form-actions {
+        text-align: end;
+    }
+}
+
+/* Contact Page styling: Media query for mobile screens */
+@media(max-width: 576px) {
+    .contact-page {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding-top: 5em;
+        padding-bottom: 5em;
+        gap: 3em;
+    }
+    .contact-page-positioning {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0em 0em;
+    }
+    .contact-page-title {
+        font-size: 1.5em;
+        padding-top: 0em;
+        letter-spacing: -0.08em;
+    }
+    
+    .contact-page-description {
+        margin-bottom: 1em;
+        max-width: 100%;
+    }
+    .form-flex {
+        gap: 0.5em;
+    }
+    .form-actions {
+        text-align: end;
+        gap: 0em;
+    }
+    .form-actions button {
+        width: 100%;
+    }  
+}
