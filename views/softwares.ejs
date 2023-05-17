@@ -35,147 +35,22 @@
     <%- include('./partials/header') %>
 
     <!-- Software section -->
-    <div class="software-hero-banner padding-section" id="software-section">
-      <div class="software-positioning"> 
-        <div>
-          <p class="software-hero-title text-start">Tele-consult Platform</p>
-          <p class="software-hero-description">
-            Instant medical advice from certified physicians - anytime, anywhere. 
-            Say goodbye to long waiting times and book your 
-            online doctor consultation now!
-          </p>
-          <div class="banner-buttons">
-            <button class="try-now-btn" onclick=scrollToContactUs()>Contact Us</button>
-            <button class="view-demo-btn">View Demo</button>
-          </div>
-        </div>
-      </div>
-      <div class="vertical-center horizontal-center">
-        <img src="/images/softwares-images/Tele-consult Platform.jpg" alt="Tele-consult Image" class="Tele-consult-image">
-     </div>
-    </div>
+    <%- include('./partials/softwares/software-section') %>
 
     <!-- Key Benefit section -->
-    <div class="key-benefit-hero-banner padding-section" id="key-benefit-section">
-      <div class="key-benefit-items"> 
-        <div>
-          <span class="key-benefit-hero-description">Design for convenience</span>
-          <p class="key-benefit-hero-title text-start">
-            Upgrade Your Hospital with Out Virtual Consultation
-          </p>
-        </div>
-      </div>        
-      <div class="key-benefit-items"> 
-        <div class="key-benefit-hero-description">
-          <p><span class="blue-tick">✓</span> Convenient: Remote teleconsultations with licensed GPs reduce facility burden. Offer patients convenient, on-demand care from anywhere with our service.</p>
-          <p><span class="blue-tick">✓</span> Affordable: Reduce medical costs and increase revenue with our cost-effective teleconsultation service for your hospital.</p>
-          <p><span class="blue-tick">✓</span> Secure: Ensure PDPA-compliant, end-to-end encrypted teleconsultation for your hospital's secure and private medical care.</p>
-          <p><span class="blue-tick">✓</span> Reliable: Our licensed General Practitioners provide reliable medical care and accurate treatment recommendations to your patients. Partner with us for experienced professionals you can trust.</p>
-        </div>
-      </div>
-    </div>
+    <%- include('./partials/softwares/key-benefit') %>
 
     <!-- Review section -->
-    <div class="review-banner padding-section" id="eview-section">
-      <div class="vertical-center horizontal-center">
-        <img src="/images/softwares-images/teleconsult-dashboard.png" alt="Tele-consult Image" class="teleconsult-dashboard-image">
-     </div>
-     <div class="review-positioning"> 
-      <div>
-        <img src="/images/softwares-images/quotation.png" alt="quotation" class="quotation"/>
-        <p class="review-hero-title text-start">Effortless online doctor consultations with same-day prescription delivery. Exceptional personalised customer care. Perfect for hospital owners.</p>
-        <p class="review-hero-description">
-          <span class="description-bold">John Doe</span>
-          <br />
-          Skin Specialist Doctor
-        </p>
-          <button class="review-button" onclick=scrollToContactUs()>Contact Us</button>
-      </div>
-    </div>     
-    </div>
+    <%- include('./partials/softwares/review') %>
 
     <!-- Key Features section -->
-    <div class="feature-page padding-section" id="key-features-section">
-      <div class="feature-titles-container">
-        <span class="feature-description-title description-bold ">Tele-consult Platform</span>
-        <p class="feature-title">
-          Key Features
-        </p>
-      </div>
-      <div class="feature-grid">
-        <div>
-          <img src="/images/softwares-images/digital-nomad.png" alt="image"/>
-          <p class="feature-description"><span class="description-bold">Easy-to-use platform: </span>Schedule and conduct tele consultations with ease on our user-friendly interface for your hospital.</p>
-        </div>
-        <div>
-          <img src="/images/softwares-images/med.png" alt="image"/>
-          <p class="feature-description"><span class="description-bold">Prescription and medication delivery: </span>Our service allows you to easily manage and track medication orders, while providing fast and reliable delivery to patients.</p>
-        </div>
-        <div>
-          <img src="/images/softwares-images/secured-phone.png" alt="image"/>
-          <p class="feature-description"><span class="description-bold">Medical history tracking: </span>Your patients’ medical history are safely stored on our platform, allowing our doctors to provide personalised treatment recommendations.</p>
-        </div>
-        <div>
-          <img src="/images/softwares-images/digiwallet.png" alt="image"/>
-          <p class="feature-description"><span class="description-bold">Flexible payment options: </span>Partner with us for flexible payment options, including credit cards, e-wallets, and insurance coverage (where applicable).</p>
-        </div>                
-      </div>
-    </div>
+    <%- include('./partials/softwares/key-features') %>
 
     <!-- Demo page section -->
-    <div class="demo-page padding-section" id="demo-section">
-        <p class="demo-title text-center">
-          Telehealth In Action!
-        </p>          
-      <div class="horizontal-center">
-        <div class="demo-grid">
-          <div>
-            <img src="/images/softwares-images/Demo1.png" alt="Home screen"/>
-          </div>
-          <div>
-            <img src="/images/softwares-images/Demo2.png" alt="Dashboard"/>
-          </div>
-          <div>
-            <img src="/images/softwares-images/Demo3.png" alt="Product Page"/>
-          </div>
-        </div>
-      </div>
-    </div>
+    <%- include('./partials/softwares/demo') %>
 
     <!-- Contact Us section -->
-    <div class="contact-page padding-section" id="contact-us-section">
-      <div class="contact-page-positioning"> 
-        <div>
-          <p class="contact-page-title text-start">Contact us</p>
-          <p class="contact-page-description">
-            We value your feedback, inquiries, and partnership opportunities. 
-            Please don't hesitate to reach out to us using the contact information 
-            provided below.
-          </p>
-        </div>
-      </div>
-      <div class="vertical-center horizontal-start">
-        <form>
-          <div class="form-flex">
-            <div class="form-field">
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name" placeholder="Enter your name" required>
-            </div>
-            <div class="form-field">
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" placeholder="Enter your email" required>
-            </div>
-          </div>
-          <div class="form-field">
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
-          </div>
-          <div class="form-actions">
-            <button type="submit">Submit</button>
-          </div>
-        </form>
-      </div>
-    </div>
+    <%- include('./partials/softwares/contactus') %>
 
     <!-- Footer section -->
     <%- include('./partials/footer') %>
