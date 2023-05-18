@@ -2,6 +2,8 @@ const lib = {
     url: {
         b2b_multivendor_marketplace: "b2b_multivendor_marketplace",
         b2c_multivendor_marketplace: "b2c_multivendor_marketplace",
+        b2c_b2b_marketplace: "b2c_b2b_marketplace",
+        online_pharmacy: "online_pharmacy",
         e_commerce_platform: "e_commerce_platform",
         tele_consult_platform: "tele_consult_platform",
         super_mobile_app: "super_mobile_app",
