@@ -1,21 +1,21 @@
 const lib = {
     url: {
-        b2b_multivendor_marketplace: "/b2b_multivendor_marketplace",
-        b2c_multivendor_marketplace: "/b2c_multivendor_marketplace",
-        e_commerce_platform: "/e_commerce_platform",
-        tele_consult_platform: "/tele_consult_platform",
-        super_mobile_app: "/super_mobile_app",
-        health_forums: "/health_forums",
-        healthcare_artificial_intelligence: "/healthcare_artificial_intelligence",
-        interactive_content: "/interactive_content",
-        content_management_system: "/content_management_system",
-        erp_hms: "/erp_hms",
-        customer_experience_management: "/customer_experience_management",
-        big_data_analytics: "/big_data_analytics",
-        infra_cloud_cybersecurity: "/infra_cloud_cybersecurity",
-        robotic_process_automation: "/robotic_process_automation",
-        healthcare_iot: "/healthcare_iot",
-        seo_digital_marketing: "/seo_digital_marketing",
+        b2b_multivendor_marketplace: "b2b_multivendor_marketplace",
+        b2c_multivendor_marketplace: "b2c_multivendor_marketplace",
+        e_commerce_platform: "e_commerce_platform",
+        tele_consult_platform: "tele_consult_platform",
+        super_mobile_app: "super_mobile_app",
+        health_forums: "health_forums",
+        healthcare_artificial_intelligence: "healthcare_artificial_intelligence",
+        interactive_content: "interactive_content",
+        content_management_system: "content_management_system",
+        erp_hms: "erp_hms",
+        customer_experience_management: "customer_experience_management",
+        big_data_analytics: "big_data_analytics",
+        infra_cloud_cybersecurity: "infra_cloud_cybersecurity",
+        robotic_process_automation: "robotic_process_automation",
+        healthcare_iot: "healthcare_iot",
+        seo_digital_marketing: "seo_digital_marketing",
     },
     lang: {
         en: {
@@ -440,3 +440,5 @@ const lib = {
         }
     }
 }
+
+module.exports = lib;
