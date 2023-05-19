@@ -99,7 +99,7 @@ const lib = {
                     demo_image_one: "",
                     demo_image_two: "",
                     demo_image_three: ""
-                },                
+                },
                 online_pharmacy: {
                     software_title: "Online Pharmacy",
                     software_description: "Streamline your hospital's medication management with our online pharmacy. Provide patients with convenient access to a wide range of medications, easy prescription ordering, and reliable delivery.",
