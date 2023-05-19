@@ -5,11 +5,15 @@
     <div class="review-positioning"> 
         <div>
             <img src="/images/softwares-images/quotation.png" alt="quotation" class="quotation"/>
-            <p class="review-hero-title text-start">Effortless online doctor consultations with same-day prescription delivery. Exceptional personalised customer care. Perfect for hospital owners.</p>
+            <p class="review-hero-title text-start">
+                <%= lib.lang.en.softwares[urlValue].rewiew_quote %>
+            </p>
             <p class="review-hero-description">
-            <span class="description-bold">John Doe</span>
+            <span class="description-bold">
+                <%= lib.lang.en.softwares[urlValue].reviewer_name %>
+            </span>
             <br />
-            Skin Specialist Doctor
+                <%= lib.lang.en.softwares[urlValue].reviewer_role %>
             </p>
             <button class="review-button" onclick=scrollToContactUs()>Contact Us</button>
         </div>
