@@ -95,6 +95,7 @@ body {
     color: #ffff;
     font-size: 2.5em;
     font-weight: 700;
+    letter-spacing: -0.08em;
 }
 
 .primary-hero-description {
@@ -161,6 +162,7 @@ body {
 .secondary-hero-title {
     font-size: 2.5em;
     font-weight: 700;
+    letter-spacing: -0.08em;
 }
 
 .secondary-colored-title {
@@ -232,8 +234,9 @@ body {
 
 .benefit-section-title {
     font-size: 2em;
-    padding-top: 5em;
+    padding-top: 2em;
     font-weight: 900;
+    letter-spacing: -0.08em;
 }
 
 .benefit-card {
@@ -292,11 +295,12 @@ body {
 /* Service page styling */
 .service-section {
     background-color: #D8D8D8;
+    letter-spacing: -0.08em;
 }
 
 .service-section-title {
     font-size: 2em;
-    padding-top: 5em;
+    padding-top: 2em;
     font-weight: 900;
 }
 
