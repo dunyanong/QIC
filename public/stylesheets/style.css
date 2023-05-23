@@ -362,10 +362,19 @@ body {
 }
 
 .service-card-learn-more {
-    display: inline-block;
-    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
     padding-left: 1em;
     text-decoration: none;
+}
+
+.service-card-learn-more > span {
+    font-weight: 700;
+}
+
+.arrow-icon{
+    width: 1em;
 }
 
 /* Service page styling: Media query for tablet screens */
