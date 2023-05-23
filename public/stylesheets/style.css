@@ -36,6 +36,19 @@ body {
     text-decoration: none;  
 }
 
+.decoration-none {
+    text-decoration: none;  
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+/* No hovers */
+.decoration-none a:hover {
+    color: white;
+}
+
 /* Center text within the container */
 .text-center {
     text-align: center;    
@@ -321,6 +334,12 @@ body {
     justify-content: space-between;
     padding: 1em;
     text-align: start;
+    text-decoration: none;
+    color: #000000;
+}
+
+.service-card:hover {
+    color: #000000;
 }
 
 .service-card-image {
@@ -343,12 +362,10 @@ body {
 }
 
 .service-card-learn-more {
-    color: #000000;
     display: inline-block;
     font-weight: 700;
     padding-left: 1em;
     text-decoration: none;
-    transition: all 0.3s ease;
 }
 
 /* Service page styling: Media query for tablet screens */
