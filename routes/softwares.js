@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const lib = require('../public/contents/library');
+const lib = require('../private/library');
 
 /* GET software page */
 router.get('/:software', function(req, res, next) {
