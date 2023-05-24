@@ -356,8 +356,8 @@ body {
 .service-card-title {
     font-size: 1.2em;
     font-weight: bold;
-    margin-left: 1em;
-    margin-top: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
 }
 
 .service-card-description {
