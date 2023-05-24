@@ -1,29 +1,10 @@
 const lib = {
-    url: {
-        b2b_multivendor_marketplace: "b2b_multivendor_marketplace",
-        b2c_multivendor_marketplace: "b2c_multivendor_marketplace",
-        b2c_b2b_marketplace: "b2c_b2b_marketplace",
-        online_pharmacy: "online_pharmacy",
-        e_commerce_platform: "e_commerce_platform",
-        tele_consult_platform: "tele_consult_platform",
-        super_mobile_app: "super_mobile_app",
-        health_forums: "health_forums",
-        healthcare_artificial_intelligence: "healthcare_artificial_intelligence",
-        health_centres: "health_centres",
-        content_management_system: "content_management_system",
-        erp_his: "erp_his",
-        customer_experience_management: "customer_experience_management",
-        big_data_analytics: "big_data_analytics",
-        infra_cloud_cybersecurity: "infra_cloud_cybersecurity",
-        robotic_process_automation: "robotic_process_automation",
-        healthcare_iot: "healthcare_iot",
-        seo_digital_marketing: "seo_digital_marketing",
-    },
     lang: {
         en: {
             softwares: {
                 b2b_multivendor_marketplace: {
-                    software_title: "Multivendor Ecommerce",
+                    url: "b2b_multivendor_marketplace",
+                    software_title: "Healthcare B2B",
                     software_image: "/images/softwares-images/b2b_multivendor_marketplace/software_image.jpg",
                     software_description: "Connect with like-minded individuals, discuss various health topics, and receive personalized advice from healthcare professionals at Malaysia's top health forum.",
                     key_selling_points_primary_title: "Engage with a Health Community",
@@ -54,7 +35,8 @@ const lib = {
                     demo_image_three: "/images/softwares-images/b2b_multivendor_marketplace/demo_image_three.jpg"
                 },                
                 b2c_multivendor_marketplace: {
-                    software_title: "Online Marketplace",
+                    url: "b2c_multivendor_marketplace",
+                    software_title: "Healthcare B2C",
                     software_image: "/images/softwares-images/b2c_multivendor_marketplace/software_image.jpg",
                     software_description: "Enhance your hospital's services with our B2C online pharmacy. Provide your patients with hassle-free access to medications and a wide range of personal healthcare products. Partner with us to create a convenient and reliable healthcare shopping experience for your hospital.",
                     key_selling_points_primary_title: "Expand Your Hospital's Services with an Online Pharmacy",
@@ -85,7 +67,8 @@ const lib = {
                     demo_image_three: "/images/softwares-images/b2c_multivendor_marketplace/demo_image_three.jpg"
                 },
                 b2c_b2b_marketplace: {
-                    software_title: "B2B and B2C Marketplace",
+                    url: "b2c_b2b_marketplace",                    
+                    software_title: "Health Marketplace",
                     software_image: "/images/softwares-images/b2c_b2b_marketplace/software_image.jpg",
                     software_description: "Expand your business reach with our versatile B2B and B2C marketplace software. Connect with suppliers, distributors, and customers in a seamless and efficient manner.",
                     key_selling_points_primary_title: "Grow Your Business with our Marketplace Solution",
@@ -116,6 +99,7 @@ const lib = {
                     demo_image_three: "/images/softwares-images/b2c_b2b_marketplace/demo_image_three.jpg"
                 },
                 online_pharmacy: {
+                    url: "online_pharmacy",                    
                     software_title: "Online Pharmacy",
                     software_image: "/images/softwares-images/online_pharmacy/software_image.jpg",
                     software_description: "Streamline your hospital's medication management with our online pharmacy. Provide patients with convenient access to a wide range of medications, easy prescription ordering, and reliable delivery.",
@@ -146,8 +130,9 @@ const lib = {
                     demo_image_two: "/images/softwares-images/online_pharmacy/demo_image_two.jpg",
                     demo_image_three: "/images/softwares-images/online_pharmacy/demo_image_three.jpg"
                 },                
-                e_commerce_platform: {
-                    software_title: "E Commerce Platform",
+                health_ecommerce: {
+                    url: "health_ecommerce",                    
+                    software_title: "Health ecommerce",
                     software_image: "/images/softwares-images/e_commerce_platform/software_image.jpg",
                     software_description: "Transform your hospital's digital experience and optimize your operations with our cutting-edge E-commerce solutions.",
                     key_selling_points_primary_title: "Enhance Your Hospital's Digital Experience",
@@ -178,7 +163,8 @@ const lib = {
                     demo_image_three: "/images/softwares-images/e_commerce_platform/demo_image_three.jpg"
                 },
                 tele_consult_platform: {
-                    software_title: "Tele-consult Platform",
+                    url: "tele_consult_platform",                    
+                    software_title: "Teleconsult",
                     software_image: "/images/softwares-images/tele_consult_platform/software_image.jpg",
                     software_description: "Transform your hospital's patient care with our online doctor consultations. Reduce waiting times and provide your patients with instant access to certified physicians, anytime and anywhere.",
                     key_selling_points_primary_title: "Upgrade Your Hospital with Our Virtual Consultations",
@@ -209,7 +195,8 @@ const lib = {
                     demo_image_three: "/images/softwares-images/tele_consult_platform/demo_image_three.jpg"
                 },
                 super_mobile_app: {
-                    software_title: "Super Mobile App",
+                    url: "super_mobile_app",                    
+                    software_title: "Health App",
                     software_image: "/images/softwares-images/super_mobile_app/software_image.jpg",
                     software_description: "Experience hassle-free healthcare with DoctorOnCall App in Malaysia. Avoid long clinic waits and address health problems from home. Download our app now for better health!",
                     key_selling_points_primary_title: "Convenient Healthcare at Your Fingertips",
@@ -240,7 +227,8 @@ const lib = {
                     demo_image_three: "/images/softwares-images/super_mobile_app/demo_image_three.jpg"
                 },
                 health_forums: {
-                    software_title: "Health Forums",
+                    url: "health_forums",                    
+                    software_title: "Health Forum",
                     software_image: "/images/softwares-images/health_forums/software_image.jpg",
                     software_description: "Connect with like-minded individuals, discuss various health topics, and receive personalized advice from healthcare professionals at Malaysia's top health forum.",
                     key_selling_points_primary_title: "Join Malaysia's Top Health Forum",
@@ -271,7 +259,8 @@ const lib = {
                     demo_image_three: "/images/softwares-images/health_forums/demo_image_three.jpg"
                 },
                 healthcare_artificial_intelligence: {
-                    software_title: "Healthcare Artificial Intelligence",
+                    url: "healthcare_artificial_intelligence",                    
+                    software_title: "Health AI",
                     software_image: "/images/softwares-images/healthcare_artificial_intelligence/software_image.jpg",
                     software_description: "Build, train, and deploy state-of-the-art machine learning classification models with no prior knowledge or coding experience.",
                     key_selling_points_primary_title: "Empower Your Hospital with AI Technology",
@@ -302,7 +291,8 @@ const lib = {
                     demo_image_three: "/images/softwares-images/healthcare_artificial_intelligence/demo_image_three.jpg"
                 },
                 health_centres: {
-                    software_title: "Health centre",
+                    url: "health_centres",                    
+                    software_title: "Health Centre",
                     software_image: "/images/softwares-images/health_centres/software_image.jpg",
                     software_description: "Well-crafted health-related educational material such as articles, games, quizzes, and various other educational resources.",
                     key_selling_points_primary_title: "Engage Your Audience with Educational Content",
@@ -333,7 +323,8 @@ const lib = {
                     demo_image_three: "/images/softwares-images/health_centres/demo_image_three.jpg"
                 },                
                 content_management_system: {
-                    software_title: "Content Management System",
+                    url: "content_management_system",                    
+                    software_title: "CMS",
                     software_image: "/images/softwares-images/content_management_system/software_image.jpg",
                     software_description: "Say goodbye to manual content management processes and hello to increased efficiency and improved patient outcomes with our CMS solution.",
                     key_selling_points_primary_title: "Streamline Your Content Management",
@@ -364,7 +355,8 @@ const lib = {
                     demo_image_three: "/images/softwares-images/content_management_system/demo_image_three.jpg"
                 },
                 erp_his: {
-                    software_title: "ERP & HIS Integration",
+                    url: "erp_his",                    
+                    software_title: "ERP & HIS",
                     software_image: "/images/softwares-images/erp_his/software_image.jpg",
                     software_description: "Integrate your hospital's Enterprise Resource Planning (ERP) and Hospital Information System (HIS) for seamless operations and improved efficiency.",
                     key_selling_points_primary_title: "Revolutionize Your Hospital Operations",
@@ -395,7 +387,8 @@ const lib = {
                     demo_image_three: "/images/softwares-images/erp_his/demo_image_three.jpg"
                 },                             
                 customer_experience_management: {
-                    software_title: "Customer Experience Management",
+                    url: "customer_experience_management",                    
+                    software_title: "CEM",
                     software_image: "/images/softwares-images/customer_experience_management/software_image.jpg",
                     software_description: "Our customer experience management platform seamlessly integrates with existing systems, enabling you to provide a seamless experience from start to finish.",
                     key_selling_points_primary_title: "Enhance Customer Experience with Our Platform",
@@ -426,7 +419,8 @@ const lib = {
                     demo_image_three: "/images/softwares-images/customer_experience_management/demo_image_three.jpg"
                 },                
                 big_data_analytics: {
-                    software_title: "Big Data Analytics",
+                    url: "big_data_analytics",                    
+                    software_title: "Big Data",
                     software_image: "/images/softwares-images/big_data_analytics/software_image.jpg",
                     software_description: "Experience a new world of possibilities with the latest advances in Big data analytics for your healthcare business!",
                     key_selling_points_primary_title: "Unlock the Power of Data in Healthcare",
@@ -457,6 +451,7 @@ const lib = {
                     demo_image_three: "/images/softwares-images/big_data_analytics/demo_image_three.jpg"
                 },                
                 infra_cloud_cybersecurity: {
+                    url: "infra_cloud_cybersecurity",                    
                     software_title: "Infra, Cloud & Cybersecurity",
                     software_image: "/images/softwares-images/infra_cloud_cybersecurity/software_image.jpg",
                     software_description: "Improve your hospital's operations with our advanced healthcare software. Secure patient data and enhance the digital experience, leading to better patient care and business growth.",
@@ -488,7 +483,8 @@ const lib = {
                     demo_image_three: "/images/softwares-images/infra_cloud_cybersecurity/demo_image_three.jpg"
                 },                
                 robotic_process_automation: {
-                    software_title: "Robotic Process Automation",
+                    url: "robotic_process_automation",                    
+                    software_title: "RPA",
                     software_image: "/images/softwares-images/robotic_process_automation/software_image.jpg",
                     software_description: "Revolutionising testing with streamlined workflows, reduced errors, and enhanced efficiency! Experience the power of automation to optimise your healthcare processes today.",
                     key_selling_points_primary_title: "Streamline Your Healthcare Processes with Automation",
@@ -519,6 +515,7 @@ const lib = {
                     demo_image_three: "/images/softwares-images/robotic_process_automation/demo_image_three.jpg"
                 },
                 healthcare_iot: {
+                    url: "healthcare_iot",                    
                     software_title: "Healthcare IoT",
                     software_image: "/images/softwares-images/healthcare_iot/software_image.jpg",
                     software_description: "Unlock the potential of your hospital with Healthcare IoT. Our innovative software solutions empower you to make data-driven decisions, enhance patient outcomes, and boost your bottom line.",
@@ -550,7 +547,8 @@ const lib = {
                     demo_image_three: "/images/softwares-images/healthcare_iot/demo_image_three.jpg"
                 },                
                 seo_digital_marketing: {
-                    software_title: "SEO & Digital Marketing",
+                    url: "seo_digital_marketing",                    
+                    software_title: "Digital SEO Marketing",
                     software_image: "/images/softwares-images/seo_digital_marketing/software_image.jpg",
                     software_description: "Trust us to increase your online visibility, generate leads, and drive conversions with our comprehensive healthcare software and SEO-driven digital marketing solutions.",
                     key_selling_points_primary_title: "Boost Your Online Visibility and Drive Conversions",
