@@ -99,7 +99,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("./../images/main-images/Asset\ 36.jpg");
+    background-image: url("./../images/main-images/backgroundImageLaptop.jpg");
     background-position: center;
     background-size: cover;
     filter: brightness(0.7);
@@ -159,7 +159,11 @@ body {
         margin-bottom: 1.5em;
         margin-top: 1.5em;
         width: 70%;
-    }     
+    }
+    .primary-hero-banner::before {
+        background-image: url("./../images/main-images/backgroundImagePhone.jpg");
+        filter: brightness(0.6);
+    }    
 }
 
 /* Secondary Banner styling */
@@ -309,6 +313,9 @@ body {
         align-items: center;        
         flex-direction: column;
     }
+    .benefit-container {
+        gap: 2em;
+    }    
 }
 
 /* Service page styling */
