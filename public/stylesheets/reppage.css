@@ -1,3 +1,8 @@
+/* Breadcrumbs styling */
+.breadcrumbs > span {
+    margin: 0 0;
+    font-size: 1em;
+}
 /* Software banner styling */
 .software-hero-banner {
     background-color: #ffff;
