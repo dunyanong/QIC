@@ -23,7 +23,7 @@ const lib = {
         en: {
             softwares: {
                 b2b_multivendor_marketplace: {
-                    software_title: "B2B Multivendor Marketplace",
+                    software_title: "Multivendor Ecommerce",
                     software_image: "/images/softwares-images/b2b_multivendor_marketplace/software_image.jpg",
                     software_description: "Connect with like-minded individuals, discuss various health topics, and receive personalized advice from healthcare professionals at Malaysia's top health forum.",
                     key_selling_points_primary_title: "Engage with a Health Community",
@@ -54,7 +54,7 @@ const lib = {
                     demo_image_three: "/images/softwares-images/b2b_multivendor_marketplace/demo_image_three.jpg"
                 },                
                 b2c_multivendor_marketplace: {
-                    software_title: "B2C Multivendor MarketPlace",
+                    software_title: "Online Marketplace",
                     software_image: "/images/softwares-images/b2c_multivendor_marketplace/software_image.jpg",
                     software_description: "Enhance your hospital's services with our B2C online pharmacy. Provide your patients with hassle-free access to medications and a wide range of personal healthcare products. Partner with us to create a convenient and reliable healthcare shopping experience for your hospital.",
                     key_selling_points_primary_title: "Expand Your Hospital's Services with an Online Pharmacy",
