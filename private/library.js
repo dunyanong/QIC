@@ -259,7 +259,7 @@ const lib = {
                     demo_image_three: "/images/softwares-images/health_forum/demo_image_three.jpg"
                 },
                 health_ai: {
-                    url: "health_ai",                    
+                    url: "health-ai",                    
                     software_title: "Health AI",
                     software_image: "/images/softwares-images/health_ai/software_image.jpg",
                     software_description: "Build, train, and deploy state-of-the-art machine learning classification models with no prior knowledge or coding experience.",
