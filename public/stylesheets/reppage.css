@@ -89,7 +89,7 @@
     }
     .Tele-consult-image {
         width: 100%;
-    }    
+    }
 }
 
 /* Software Banner styling: Media query for mobile screens */
@@ -119,10 +119,13 @@
         font-size: 1.2em;
         max-width: 100%;
     }
-    .Tele-consult-image {
+    .healthcare-software-image {
         width: 100%;
         padding-bottom: 2em;
-    }    
+    }
+    .review-image {
+        width: 70%;
+    }
 }
 
 /* Key Benefit Page styling */
@@ -285,7 +288,7 @@
         padding: none;
         letter-spacing: -0.1em;
     }
-    .teleconsult-dashboard-image {
+    .healthcare-software-image {
         width: 70%;
         padding-top: 0em;
     }
